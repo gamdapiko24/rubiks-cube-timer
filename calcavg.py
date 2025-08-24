@@ -21,3 +21,4 @@ def aox(x,times):
         return 'N/A'
     numeric_times.remove(min(numeric_times))
     numeric_times.remove(max(numeric_times))
+    return mean(numeric_times)
