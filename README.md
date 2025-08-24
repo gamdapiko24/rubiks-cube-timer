@@ -31,4 +31,4 @@ Before starting, run main.py
 1. Add more event scrambles.
 2. Time yourself within project
 3. Type nothing if you don't want to type a command.
-4. Fix ao3, ao5, and ao12 'Null' bug.
+4. Fix mo3, ao5, and ao12 'Null' bug.
