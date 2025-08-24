@@ -22,18 +22,12 @@ def scramble3x3(length):
     mtypes = ['R','L','F','B','D','U']
     madd = ['',"'",'2']
     moves = []
-
-    def scramble2x2():
-        return scramble3x3(10)
-
-    for _ in range(length):
-        moves.append(random.choice(mtypes))
-        if len(moves) > 1:
-            while not valid(moves[-2],moves[-1]):
-                try_new()
-            while moves[-2] == moves[-1]:
-                try_new()
-    
     for i in range(length):
+        if i == 0:
+            moves.append(random.choice(mtypes))
+        else:
+            moves.append(random.choice(mtypes))
+            while not valid(moves[i-1],moves[i]):
+                try_new()
         moves[i] += random.choice(madd)
     return ' '.join(moves)
