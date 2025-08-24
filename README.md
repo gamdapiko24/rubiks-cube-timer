@@ -6,6 +6,8 @@ Anyways this is a text based Rubik's Cube timer I coded in python because I like
 
 # How to use
 
+Before starting, run main.py
+
 1. Choose the event you want to use. You can't get custom scrambles for any puzzle other than 3x3 yet. You can type 'Commands' if you want to use commands instead of cubing.
 2. It will give you a scramble and you can type in your time (I should probably add a feature so you can time yourself within the project)
 3. After that, you can add a comment to your solve.
