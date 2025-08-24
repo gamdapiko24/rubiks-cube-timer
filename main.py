@@ -16,7 +16,7 @@ def command_line():
             global timer
             timer = False
             break
-        if user_input.lower() == 'no':
+        if user_input.lower() == '':
             break
         result = cmd.execute(user_input)
         if result:
