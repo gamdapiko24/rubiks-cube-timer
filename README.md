@@ -13,10 +13,20 @@ Anyways this is a text based Rubik's Cube timer I coded in python because I like
 5. Repeat
 
 # Commands
-I'm working on it.
+**stats_from_index**: Shows you the solve stats for that index (Starts with zero)
+
+**best**: Gives you your best time, mo3, ao5, ao12, or mean.
+
+**worst**: Gives you your worst time, mo3, ao5, ao12 or mean.
+
+**list_times**: Shows you all your times in order.
+
+**search_times**: Shows you every time with a time of x.
+
+**sort_best**: Sorts your times, mo3, ao5, ao12, or mean.
 
 # What I plan to fix/add
 1. Add more event scrambles.
 2. Time yourself within project
 3. Type nothing if you don't want to type a command.
-4. Fix ao5 and ao12 'Null' bug.
+4. Fix ao3, ao5, and ao12 'Null' bug.
