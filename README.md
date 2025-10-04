@@ -2,7 +2,7 @@
 
 DISCLAIMER: I AM A COMPLETE BEGINNER AT PYTHON. THIS CODE MIGHT SUCK
 
-Anyways this is a text based Rubik's Cube timer I coded in python because I like Rubik's Cubes. I can do one in 25 seconds average.
+Anyways this is a text based Rubik's Cube timer I coded in python because I like Rubik's Cubes. I can do one in 20 seconds average.
 
 # How to use
 
